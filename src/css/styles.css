@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.wowBody {
+  background-image: url(../assets/images/wowowne.jpg);
+  padding-bottom: 50px;
+}
+
+#cardWow {
+  /* margin: auto; */
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* filter: drop-shadow(3px 3px 2px black); */
+}
+
+.cardContainer {
+  border: solid;
+  background-color: black;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  filter: drop-shadow(3px 3px 2px black);
+  font-family: 'Amatic SC', cursive;
+  font-size: 90px;
+  background-color: white;
+  border-bottom: solid;
+}
+
+.animalBody {
+  background-image: url(../assets/images/leafy-background.jpg);
+  padding-bottom: 20px;
+}
+
+.header2 {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  filter: drop-shadow(3px 3px 2px black);
+  font-family: 'Amatic SC', cursive;
+  font-size: 90px;
+  background-color: rgb(149, 209, 141);
+  border-bottom: solid;
+  border-top: solid;
+}
+
+.animalCard {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  filter: drop-shadow(2px 2px 2px);
+  padding: 10px;
+  border: solid black;
+}
+
+.animalIMG {
+  height: 150px;
+  max-width: 270px;
+  border: ridge green;
+  border-radius: 4px;
+}
